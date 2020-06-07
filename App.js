@@ -8,6 +8,6 @@
         $scope.head="About me.";
     })
     .controller('Aboutme',function($scope){
-        $scope.aboutme="Hey everyone I'm TUSHAR GOEL working at Virtusa as an Intern. I collab with people to get the things done on various technologies like JAVA, GO and many more. At present I am pursuing my Bachlore's degree from CMR Engineering Collge, Hyderabad. The technologies I'm intrested in and have a knowlwdge are Bootstrap, JAVA, GO, PHP, Servlets, DBMS and many more.";
+        $scope.aboutme="Hey everyone I'm TUSHAR GOEL working at Virtusa as an Intern. I collab with people to get the things done on various technologies like JAVA, GO and many more. At present I am pursuing my Bachlore's degree from CMR Engineering Collge, Hyderabad. The technologies I'm interested in and have a knowledge are Bootstrap, JAVA, GO, PHP, Servlets, DBMS.";
     });
 })();
