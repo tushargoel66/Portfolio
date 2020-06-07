@@ -17,7 +17,7 @@
     position: absolute;
     top: 10px;
     left: 10px;
-    opacity: 1;
+    position: fixed;
 }
 #about{
     position: absolute;
@@ -41,5 +41,11 @@
     position: absolute;
     left: 620px;
     top: 67px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#acheivements{
+    position: absolute;
+    top: 1000px;
+    left: 300px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
