@@ -1,0 +1,27 @@
+.parallax {
+    /* The image used */
+    background-image: url("BG.jpg");
+  
+    
+    min-height: 650px; 
+    opacity: .5;
+    /* Create the parallax scrolling effect*/
+    background-attachment: fixed;
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#navbar{
+    position: absolute;
+    top: 10px;
+    
+    left: 10px;
+    opacity: 1;
+}
+img{
+    border-radius: 10%;
+}
+.intro{
+    position: absolute;
+    
+}
