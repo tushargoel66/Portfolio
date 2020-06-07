@@ -9,7 +9,7 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
         <script src="angular.min.js"></script>
         <script src="App.js"></script>
-        <title>TUSHAR GOEL</title>
+        <title ng-controller="Name">{{name}}</title>
     </head>
     <body>
         <div class="parallax"></div>
@@ -20,13 +20,16 @@
                 <span class="text-muted">Intern At Virtusa</span><br>
                 <span class="text-muted">tushargoel66@gmail.com</span><hr>
                 <ul>
-                    <a class="fa fa-mobile"> &nbsp; Phone</a><br><br>
+                    <a class="fa fa-mobile" href="tel:+917569894829"> &nbsp; Phone</a><br><br>
                     <a class="fa fa-linkedin" target="_blank" href="https://www.linkedin.com/in/tushar-g-71a604103"> &nbsp; Linkedin</a><br><br>
                     <a class="fa fa-facebook" target="_blank" href=""> &nbsp; Facebook</a><br><br>
                     <a class="fa fa-instagram" target="_blank" href=""> &nbsp; Instagram</a><br><br>
                 </ul>  
             </div>          
         </div>
-        
+        <div id="about">
+            <h3 ng-controller="Header">&bullet;{{head}}</h3><hr>
+            <div ng-controller="Aboutme" >{{aboutme}}</div>
+        </div>
     </body>
 </html>
